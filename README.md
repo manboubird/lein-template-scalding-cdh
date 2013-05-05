@@ -15,7 +15,7 @@ lein new scalding-cdh my-scalding-project
 cd my-scalding-project
 
 # local mode
-lein run cdh_s2.ReadWriteFile --local --input data/input.txt --output output.tsv
+lein run my_scalding_project.ReadWriteFile --local --input data/input.txt --output output.tsv
 
 # on hadoop
 lein uberjar
